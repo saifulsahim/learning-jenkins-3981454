@@ -1,5 +1,5 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Learning Jenkins: Automating Software Development and System Administration
+This is the repository for the LinkedIn Learning course `Learning Jenkins: Automating Software Development and System Administration`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![lil-thumbnail-url]
 
