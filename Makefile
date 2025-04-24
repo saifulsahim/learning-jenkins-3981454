@@ -54,6 +54,12 @@ chapterlist:
 	@find . -type f -name README.md | sed 's/\/README.md//' | sed 's/\.\///' | sed '/\./d' | sort
 
 chapterlist-touch:
+	@if [ -f CHAPTER_LIST.txt ]; then \
+		if fgrep "/0_0" CHAPTER_LIST.txt; then \
+			echo "CHAPTER_LIST.txt contains /0_0"; \
+			exit 1; \
+		fi; \
+	fi
 	@cat ./CHAPTER_LIST.txt | while read line; do \
 		echo "$$line"; \
 		mkdir -p $$line; \
