@@ -18,42 +18,35 @@ You should have **administrator privileges** to complete the installation.
 
 Systems operating Jenkins must have a Java runtime environment installed.
 
-The recommended version of Java for use with Jenkins is Java 21\.  The Java Development Kit (JDK) version includes the Java runtime environment and additional development tools.
+The recommended version of Java for use with Jenkins is Java 21.  The Java Development Kit (JDK) version includes the Java runtime environment and additional development tools.
 
 1. Download the [Microsoft Build of OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/download#openjdk-21) for Windows x64:  [https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-x64.msi](https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-x64.msi)
 
 ![Alternative Text: Download the Microsoft Build of OpenJDK for Windows x64][image1]
-Alternative Text: Download the Microsoft Build of OpenJDK for Windows x64
 
 1. Open the installation package. Select **Next**.
 
 ![Alternative Text: Open the installation package. Select Next.][image2]
-Alternative Text: Open the installation package. Select Next.
 
 1. Accept the license agreement and select **Next**.
 
 ![Alternative Text: Accept the license agreement and select Next.][image3]
-Alternative Text: Accept the license agreement and select Next.
 
 1. Select “**Install for all users of this machine**” and select **Next**.
 
 ![Alternative Text: Select “Install for all users of this machine” and select Next.][image4]
-Alternative Text: Select “Install for all users of this machine” and select Next.
 
 1. Select “**Set or override JAVA\_HOME variable**” and select **Next**.
 
 ![Alternative Text: Select “Set or override JAVA\_HOME variable” and select Next.][image5]
-Alternative Text: Select “Set or override JAVA\_HOME variable” and select Next.
 
 1. Select **Install**.
 
 ![Alternative Text: Select Install and wait for the installation to complete.][image6]
-Alternative Text: Select Install and wait for the installation to complete.
 
 1. When the installation completes, select **Finish**.
 
 ![Alternative Text: When the installation completes, select Finish.][image7]
-Alternative Text: When the installation completes, select Finish.
 
 ### **Install Git**
 
@@ -62,13 +55,11 @@ A `git` installation is required for Jenkins to connect to code repositories.
 1. Download the latest version of the Git installer from the following link: [https://git-scm.com/downloads/win](https://git-scm.com/downloads/win)
 
 ![Alternative Text: Download the latest version of the Git installer for Windows.][image8]
-Alternative Text: Download the latest version of the Git installer for Windows.
 
 1. Open the installation package.
 1. Accept all defaults and select **Next** on each screen of the installation dialog.
 
 ![Alternative Text: Start the installation and accept “Next” on each screen.][image9]
-Alternative Text: Start the installation and accept “Next” on each screen.
 
 1. On the “Configuring extra options” screen, select **Install**.
 1. When the installation completes, select **Finish**.
@@ -81,74 +72,60 @@ Alternative Text: Complete the installation.
 1. Download the LTS version of Jenkins for Windows from the Jenkins download webpage: [https://www.jenkins.io/download/](https://www.jenkins.io/download/)
 
 ![Alternative Text: Download the LTS version of Jenkins for Windows.][image11]
-Alternative Text: Download the LTS version of Jenkins for Windows.
 
 1. Open the installation package.  Select **Next**.
 
 ![Alternative Text: Open the installation package.  Select Next.][image12]
-Alternative Text: Open the installation package.  Select Next.
 
 1. On the “Destination Folder” screen, select **Next**.
 
 ![Alternative Text: On the “Destination Folder” screen, select Next.][image13]
-Alternative Text: On the “Destination Folder” screen, select Next.
 
-1. On the “Service Logon Credentials” screen, select “Run service as LocalSystem (not recommended)”. Select **Next**. *NOTE: This option is acceptable for  learning purposes in a controlled environment*.
+1. On the “Service Logon Credentials” screen, select “Run service as LocalSystem (not recommended)”. Select **Next**. *NOTE: This option is acceptable for learning purposes in a controlled environment*.
 
 ![Alternative Text: On the “Service Logon Credentials” screen, select “Run service as LocalSystem (not recommended)”. Select Next.][image14]
-Alternative Text: On the “Service Logon Credentials” screen, select “Run service as LocalSystem (not recommended)”. Select Next.
 
 1. On  the “Port Selection” screen, select **Test Port**.  Select **Next**.  *NOTE: If the port test fails, check for other processes that are running on the system and using port `8080`.  Stop the other process or consider using a different port for Jenkins*.
 
 ![Alternative Text: On  the “Port Selection” screen, select Test Port.][image15]
-Alternative Text: On  the “Port Selection” screen, select Test Port.
 
 ![Alternative Text: After testing the port, select Next.][image16]
-Alternative Text: After testing the port, select Next.
 
-1. On the “Select Java home directory” screen, select **Change…**.
+1. On the “Select Java home directory” screen, select **Change...**.
 
-![On the “Select Java home directory” screen, select Change…][image17]
-Alternative Text: On the “Select Java home directory” screen, select Change…
+![On the “Select Java home directory” screen, select Change...][image17]
 
 1. Inside the “Program Files” directory, select “Microsoft”; then select “jdk-21.0.6.7-hotspot”.
 
 ![Alternative Text: Inside the “Program Files” directory, select “Microsoft”; then select “jdk-21.0.6.7-hotspot”.][image18]
-Alternative Text: Inside the “Program Files” directory, select “Microsoft”; then select “jdk-21.0.6.7-hotspot”.
 
 1. Select **OK** then select **Next**.
 
 ![Alternative Text: Select OK then select Next.][image19]
-Alternative Text: Select OK then select Next.
 
 1. On the “Custom Setup” screen, select **Next**.
 
 ![Alternative Text: On the “Custom Setup” screen, select Next.][image20]
-Alternative Text: On the “Custom Setup” screen, select Next.
 
 1. Select **Install**.
 
 ![Alternative Text: Select Install.][image21]
-Alternative Text: Select Install.
 
 1. When the installation completes, select **Finish**.
 
 ![Alternative Text: When the installation completes, select Finish.][image22]
-Alternative Text: When the installation completes, select Finish.
 
 1. Open a File Explorer window and browse to the following path: `C:\ProgramData\Jenkins\.jenkins\secrets\initialAdminPassword`
 
-![Alternative Text: Open a File Explorer window and browse to the following path: C:\\ProgramData\\Jenkins\\.jenkins\\secrets\\initialAdminPassword][image23]Alternative Text: Open a File Explorer window and browse to the following path: C:\\ProgramData\\Jenkins\\.jenkins\\secrets\\initialAdminPassword
+![Alternative Text: Open a File Explorer window and browse to the following path: C:\\ProgramData\\Jenkins\\.jenkins\\secrets\\initialAdminPassword][image23]
 
 1. Select **Notepad** as the application to open the file.  Then select **Just once**.
 
 ![Alternative Text: Select Notepad as the application to open the file.  Then select Just once.][image24]
-Alternative Text: Select Notepad as the application to open the file.  Then select Just once.
 
 1. Inside Notepad, copy the initial admin password.
 
 ![Alternative Text: Inside Notepad, copy the initial admin password.][image25]
-Alternative Text: Inside Notepad, copy the initial admin password.
 
 1. Complete the installation by opening a browser and connecting to localhost:8080: [http://localhost:8080](http://localhost:8080)
 
