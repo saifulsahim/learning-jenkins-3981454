@@ -2,7 +2,7 @@
 
 Create a freestyle job with one build step.
 
-Add a choice parameter with three or more choices.
+Add a choice parameter named `ENVIRONMENT` with three or more choices.
 
 ## WINDOWS SYSTEMS
 
