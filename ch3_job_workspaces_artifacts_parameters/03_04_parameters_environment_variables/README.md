@@ -1,4 +1,4 @@
-# 03_04 Parameters and envrionment variables
+# 03_04 Parameters and environment variables
 
 <!-- FooterStart -->
 ---
