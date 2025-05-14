@@ -1,4 +1,4 @@
-# 03_01 Using a global build tool
+# 03-01: Using a global build tool with Mac, Linux, and Docker
 
 ## Prerequisites
 
@@ -33,20 +33,6 @@ Create a freestyle job and configure it as follows:
 4. Select the Maven version you configured in the previous step.
 5. For the goal, enter `package`.
 
-### WINDOWS SYSTEMS
-
-After the Maven build step, add a step to run the JAR file.
-
-1. Select `Add build step` -> `Execute Windows batch command`. Enter:
-
-    ```bash
-    java -cp target/hello-1.0-SNAPSHOT.jar com.learningjenkins.App
-    ```
-
-1. Save the job and start the build.
-
-[Follow this link for more details on running this job on Windows](WINDOWS.md)
-
 ## MacOS, Linux, and Docker
 
 After the Maven build step, add a step to run the JAR file.
@@ -58,8 +44,6 @@ After the Maven build step, add a step to run the JAR file.
     ```
 
 1. Save the job and start the build.
-
-[Follow this link for more details on MacOS, Linux, and Docker](MAC_LINUX_DOCKER.md)
 
 ## Troubleshooting Errors
 
@@ -78,8 +62,3 @@ ERROR: Couldn't find any revision to build. Verify the repository and branch con
 ```
 
 Check the branch under Source Code Management.  Enter `*/main` for the branch.
-
-<!-- FooterStart -->
----
-[← 02_10 Solution TBD](../../ch2_jenkins_jobs/02_10_solution_tbd/README.md) | [03_02 Browse a job's workspace →](../03_02_browse_a_jobs_workspace/README.md)
-<!-- FooterEnd -->
