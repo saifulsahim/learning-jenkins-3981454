@@ -1,4 +1,4 @@
-README_FILES := $(shell find . -type f -name 'README.md' -not -path './.git/*')
+README_FILES := $(shell find . -type f -not -path './.git/*' -name 'README.md' -o -name 'WINDOWS.md' -o -name 'MAC_LINUX_DOCKER.md')
 DIRECTORIES := $(shell find $(PWD) -type f -name 'README.md' -exec dirname {} \;)
 
 hello:
