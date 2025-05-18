@@ -11,7 +11,6 @@ Use the console to create a scheduled job.
   │ │ │ ┌─────────────── month (1 - 12)
   │ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday)
   * * * * *
-
 ```
 
 ## Use Hashed Time Specifiers
