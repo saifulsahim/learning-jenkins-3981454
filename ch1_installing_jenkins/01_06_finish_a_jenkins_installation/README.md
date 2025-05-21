@@ -14,41 +14,37 @@ Jenkins will present you with two options for plugin installation. The recommend
 
 ![Plugin installation options screen with suggested plugins selected](images/01_06_finish_a_jenkins_installation_2.png)
 
+![](images/01_06_finish_a_jenkins_installation_4.png)
+
 ## Step 3: Create Admin User
 
 Next, you'll need to create your first administrator user. This account will have full access to manage Jenkins and its configurations.
 
-![Admin user creation form with username, password, and full name fields](images/01_06_finish_a_jenkins_installation_4.png)
+![Plugin installation screen](images/01_06_finish_a_jenkins_installation_5.png)
 
 ## Step 4: Configure Jenkins URL
 
 Set up the Jenkins URL that will be used to access your Jenkins instance. This is typically the same URL you used to access the unlock page.
 
-![Jenkins URL configuration screen showing the instance URL field](images/01_06_finish_a_jenkins_installation_5.png)
+![Jenkins URL configuration screen showing the instance URL field](images/01_06_finish_a_jenkins_installation_6.png)
 
 ## Step 5: Start Using Jenkins
 
-Once the installation is complete, you'll see the Jenkins dashboard. This is your main interface for managing jobs, builds, and system configurations.
+Once the installation is complete, you'll see a message indicating Jenkins is ready.  Select **Start using Jenkins***.
 
-![Jenkins dashboard showing the welcome screen and getting started options](images/01_06_finish_a_jenkins_installation_6.png)
+![Jenkins is ready](images/01_06_finish_a_jenkins_installation_7.png)
 
-## Step 6: Verify Installation
+The next page displayed is the Jenkins dashboard. This is your main interface for managing jobs, builds, and system configurations.
 
-You can verify your installation by checking the system information and installed plugins in the Jenkins management interface.
-
-![System information page showing Jenkins version and environment details](images/01_06_finish_a_jenkins_installation_7.png)
-
-## Step 7: Configure Global Tools
-
-Set up any global tools you'll need for your builds, such as JDK, Git, or Maven installations.
-
-![Global tool configuration page with options for various build tools](images/01_06_finish_a_jenkins_installation_8.png)
-
-## Step 8: Ready to Use
+![Jenkins dashboard showing the system is ready for use](images/01_06_finish_a_jenkins_installation_8.png)
 
 Your Jenkins installation is now complete and ready to use! You can start creating your first job or explore the various features available.
 
-![Jenkins dashboard showing the system is ready for use](images/01_06_finish_a_jenkins_installation_9.png)
+## Step 8: Dismiss "built-in node" warning
+
+You can safely dismiss the warning message about building on the built-in node.
+
+![YWarning message about building on the built-in node. Options include set up agent, set up cloud, and dismiss](images/01_06_finish_a_jenkins_installation_9.png)
 
 <!-- FooterStart -->
 ---
