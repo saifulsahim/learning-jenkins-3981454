@@ -44,7 +44,7 @@ Your Jenkins installation is now complete and ready to use! You can start creati
 
 You can safely dismiss the warning message about building on the built-in node.
 
-![YWarning message about building on the built-in node. Options include set up agent, set up cloud, and dismiss](images/01_06_finish_a_jenkins_installation_9.png)
+![Warning message about building on the built-in node. Options include set up agent, set up cloud, and dismiss](images/01_06_finish_a_jenkins_installation_9.png)
 
 <!-- FooterStart -->
 ---
