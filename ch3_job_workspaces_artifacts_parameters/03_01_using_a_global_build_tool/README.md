@@ -81,5 +81,5 @@ Check the branch under Source Code Management.  Enter `*/main` for the branch.
 
 <!-- FooterStart -->
 ---
-[← 02_10 Solution TBD](../../ch2_jenkins_jobs/02_10_solution_tbd/README.md) | [03_02 Browse a job's workspace →](../03_02_browse_a_jobs_workspace/README.md)
+[← 02_10 Solution: Automate system monitoring with Jenkins](../../ch2_jenkins_jobs/02_10_solution_automate_system_monitoring_with_jenkins/README.md) | [03_02 Browse a job's workspace →](../03_02_browse_a_jobs_workspace/README.md)
 <!-- FooterEnd -->
