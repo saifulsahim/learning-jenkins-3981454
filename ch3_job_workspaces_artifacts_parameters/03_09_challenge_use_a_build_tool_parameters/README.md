@@ -56,12 +56,12 @@ This challenge should take 10 to 15 minutes to complete.
    - **Windows:** Add a build step using **Execute Windows batch command** with the following script:
 
      ```bat
-     `@echo off`
-     `echo         Build: %BUILD_ID%`
-     `echo     Operation: %OPERATION%`
-     `echo  First number: %NUMBER_1%`
-     `echo Second number: %NUMBER_2%`
-     `java -jar target\calculator-1.0-SNAPSHOT.jar %OPERATION% %NUMBER_1% %NUMBER_2%`
+     @echo off
+     echo         Build: %BUILD_ID%
+     echo     Operation: %OPERATION%
+     echo  First number: %NUMBER_1%
+     echo Second number: %NUMBER_2%
+     java -jar target\calculator-1.0-SNAPSHOT.jar %OPERATION% %NUMBER_1% %NUMBER_2%
      ```
 
    - **macOS, Linux, and Docker:** Add a build step using **Execute shell** with the following script:
