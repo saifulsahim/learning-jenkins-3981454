@@ -40,7 +40,7 @@ After the Maven build step, add a step to run the JAR file.
 1. Select `Add build step` -> `Execute Windows batch command`. Enter:
 
     ```bash
-    java -cp target/hello-1.0-SNAPSHOT.jar com.learningjenkins.App
+    java -cp target/hello-1.0-SNAPSHOT.jar learningjenkins.App
     ```
 
 1. Save the job and start the build.
@@ -54,7 +54,7 @@ After the Maven build step, add a step to run the JAR file.
 1. Select `Add build step` -> `Execute shell`. Enter:
 
     ```bash
-    java -cp target/hello-1.0-SNAPSHOT.jar com.learningjenkins.App
+    java -cp target/hello-1.0-SNAPSHOT.jar learningjenkins.App
     ```
 
 1. Save the job and start the build.
