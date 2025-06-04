@@ -10,15 +10,16 @@ The Engineering and Accounting teams are using Jenkins for application developme
 
 1. **Create four, empty jobs with the following names (note that the jobs do not need to include any additional configuration or build steps)**
 
-   - `Accounting-build`
-   - `Accounting-deploy`
-   - `Engineering-build`
-   - `Engineering-deploy`
+   - `Accounting-Build`
+   - `Accounting-Deploy`
+   - `Engineering-Build`
+   - `Engineering-Deploy`
 
 2. **Create views based on job type**
 
-   - Create one view named **Build** that shows jobs matching the regular expression `.*build.*`
-   - Create one view named **Deploy** that shows jobs matching the regular expression `.*deploy.*`
+   - Create one view named **Build** that shows jobs matching the regular expression `.*Build.*`
+   - Create one view named **Deploy** that shows jobs matching the regular expression `.*Deploy.*`
+   - Configure the views to recurse into subfolders
 
 3. **Create a new job named `Engineering-build-ui`**
 
@@ -29,10 +30,11 @@ The Engineering and Accounting teams are using Jenkins for application developme
    - Create a folder named **Engineering**.
    - Create a folder named **Accounting**.
    - Move jobs into the appropriate folder.
+   - Confirm that the jobs are still visible in their associated view
 
 5. **Use the command palette for navigation**.
 
-   - Open the `Engineering-build` job
+   - Open the `Engineering-Build` job
    - Navigate directly to the **Accounting** folder.
 
 This challenge should take 10 to 15 minutes.
