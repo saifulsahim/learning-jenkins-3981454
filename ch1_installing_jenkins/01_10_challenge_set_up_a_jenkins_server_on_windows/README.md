@@ -22,5 +22,5 @@ This challenge should take 10-15 minutes to complete.
 
 <!-- FooterStart -->
 ---
-[← README](../01_09_manage_tools/README.md) | [01_11 solution Set Up a Jenkins Server on Windows →](../01_11_solution_set_up_a_jenkins_server_on_windows/README.md)
+[← 01_09 Manage Tools](../01_09_manage_tools/README.md) | [01_11 solution Set Up a Jenkins Server on Windows →](../01_11_solution_set_up_a_jenkins_server_on_windows/README.md)
 <!-- FooterEnd -->
