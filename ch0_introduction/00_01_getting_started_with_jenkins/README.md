@@ -1,4 +1,6 @@
 # 00_01 Getting started with jenkins
+TODO: ADD CONTENT
+
 
 <!-- FooterStart -->
 ---

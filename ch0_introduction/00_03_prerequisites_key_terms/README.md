@@ -1,4 +1,6 @@
 # 00_03 Key terms and prerequisites
+TODO: ADD CONTENT
+
 
 <!-- FooterStart -->
 ---

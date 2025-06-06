@@ -1,4 +1,6 @@
 # 04_04 Search with the command palette
+TODO: ADD CONTENT
+
 
 <!-- FooterStart -->
 ---

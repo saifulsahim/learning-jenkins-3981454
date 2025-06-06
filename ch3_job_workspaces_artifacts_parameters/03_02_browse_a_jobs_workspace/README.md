@@ -1,4 +1,6 @@
 # 03_02 Browse a job's workspace
+TODO: ADD CONTENT
+
 
 <!-- FooterStart -->
 ---
