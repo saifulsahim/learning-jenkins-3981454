@@ -9,7 +9,7 @@ To complete this challenge you will:
 - install Java 21
 - install Git
 - install Jenkins
-- configure the Jenkins by installing the default plugins and creating a user.
+- configure Jenkins by installing the default plugins and creating a user.
 
 Review the exercise files for  installation instructions and more information:
 
