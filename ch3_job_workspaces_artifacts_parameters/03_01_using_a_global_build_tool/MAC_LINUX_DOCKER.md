@@ -6,7 +6,7 @@ Configure Git and Maven as a global build tool.
 
 ### Git
 
-TODO: Add steps for git
+Git should be installed on your system.  Use the default configuration.
 
 ### Maven
 

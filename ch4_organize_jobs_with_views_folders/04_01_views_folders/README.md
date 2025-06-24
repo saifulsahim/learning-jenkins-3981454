@@ -1,6 +1,25 @@
 # 04_01 Views and folders
-TODO: ADD CONTENT
 
+In this lesson, you'll learn how to organize Jenkins jobs using views and folders. These features help keep your Jenkins server tidy and easy to navigate, especially when managing dozens or even hundreds of jobs.
+
+- **Why Organization Matters:**
+  - Large Jenkins servers can quickly become cluttered with jobs.
+  - Views and folders help teams stay organized and find jobs efficiently.
+
+## **Views:**
+
+- Act as filters to control which jobs appear on the Jenkins dashboard.
+- You define criteria to group and display only relevant jobs.
+- Useful for narrowing your focus to specific projects or teams.
+
+## **Folders:**
+
+- Create a file system-like structure within Jenkins.
+- Folders can contain:
+  - Jobs
+  - Views
+  - Other folders (nested structure)
+- Folders have separate namespaces, allowing jobs in different folders to share the same name without conflicts.
 
 <!-- FooterStart -->
 ---

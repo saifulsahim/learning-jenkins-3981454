@@ -6,7 +6,9 @@ Configure Git and Maven as a global build tool.
 
 ### Git
 
-TODO: Add steps for git
+Be sure to configure **Git** separately if you're following along on a Windows system.
+
+Review the exercise files for  installation instructions and more information: [01_02 Install Jenkins on Windows](../01_02_install_jenkins_on_windows/README.md).
 
 ### Maven
 
