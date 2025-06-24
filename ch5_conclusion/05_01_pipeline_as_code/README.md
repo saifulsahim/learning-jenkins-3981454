@@ -4,8 +4,6 @@ In this lesson, you'll learn how Jenkins pipelines allow you to configure jobs a
 
 Pipelines use a text-based configuration called a **Jenkinsfile**, making it easy to version, share, and maintain your CI/CD processes.
 
-### Essential Topics Covered
-
 - **What Is a Pipeline:**
   - A pipeline is a Jenkins job defined entirely as code.
   - The configuration lives in a file called a `Jenkinsfile`.

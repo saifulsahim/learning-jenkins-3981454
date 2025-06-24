@@ -1,6 +1,6 @@
 # 02_09 Challenge: Automate system monitoring with Jenkins
 
-In this challenge you will create a report with details on the system where Jenkins is running.
+The goal of this challenge is to create a report with details on the system where Jenkins is running.
 
 ## **Challenge Overview**
 
