@@ -12,12 +12,14 @@ This repository is organized into directories that correspond to the videos in t
 
 The course is organized into the following chapters:
 
-- **0: Introduction** - Getting started with Jenkins, why choose Jenkins, prerequisites, and software versions
-- **1: Installing Jenkins** - System requirements, installation on different platforms, user interface, and plugin management
-- **2: Jenkins Jobs** - Creating Jenkins jobs and build triggers
-- **3: Job Workspaces, Artifacts, and Parameters** - Working with build tools, workspaces, artifacts, and job parameters
-- **4: Organize Jobs with Views and Folders** - Creating views and folders to organize Jenkins jobs
-- **5: Conclusion** - Pipeline as code, build agents, and next steps
+| Chapter | Description |
+| --- | --- |
+| **0: Introduction** | Getting started with Jenkins, why choose Jenkins, prerequisites, and software versions |
+| **1: Installing Jenkins** | System requirements, installation on different platforms, user interface, and plugin management |
+| **2: Jenkins Jobs** | Creating Jenkins jobs and build triggers |
+| **3: Job Workspaces, Artifacts, and Parameters** | Working with build tools, workspaces, artifacts, and job parameters |
+| **4: Organize Jobs with Views and Folders** | Creating views and folders to organize Jenkins jobs |
+| **5: Conclusion** | Pipeline as code, build agents, and next steps |
 
 ## Installing
 
