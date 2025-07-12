@@ -8,7 +8,7 @@ This is the repository for the LinkedIn Learning course `Learning Jenkins: Autom
 
 ## Course Structure
 
-This repository is organized into directories that correspond to the videos in the course. Each chapter has its own directory (e.g., `ch0_introduction`, `ch1_installing_jenkins`), and within each chapter directory are subdirectories for each video.
+This repository is organized into directories that correspond to the videos and exercises in the course. Each chapter has its own directory, and within each chapter directory are subdirectories for each video or exercise.
 
 The course is organized into the following chapters:
 
