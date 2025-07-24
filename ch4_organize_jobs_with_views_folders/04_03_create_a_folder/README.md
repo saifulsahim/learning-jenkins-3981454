@@ -27,6 +27,12 @@ In this lesson, you'll learn how to use folders in Jenkins to organize jobs and 
 - **Summary:**
   - Folders and views work together to keep your Jenkins environment clean, organized, and easy to navigate.
 
+## Shenanigans
+
+In the video for this lesson, the author moved the `Clippers-BUILD` job into the `Cyclones` folder. 🤦🏾‍♂️
+
+The correct action should have been to move the `Cyclones-BUILD` job into the `Cyclones` folder.
+
 <!-- FooterStart -->
 ---
 [← 04_02 Create a view](../04_02_create_a_view/README.md) | [04_04 Search with the command palette →](../04_04_search_with_the_command_palette/README.md)
