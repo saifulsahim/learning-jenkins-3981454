@@ -22,7 +22,8 @@ public class AppTest {
             App.main(new String[]{});
 
             // Verify the output
-            assertEquals("Hello World!", outContent.toString());
+            assertEquals("Hello World!", outContent.toString().trim());
+
         } finally {
             // Restore System.out
             System.setOut(originalOut);
@@ -39,7 +40,8 @@ public class AppTest {
             App.main(new String[]{"arg1", "arg2"});
 
             // Verify the output (should be the same regardless of arguments)
-            assertEquals("Hello World!", outContent.toString());
+            assertEquals("Hello World!", outContent.toString().trim());
+
         } finally {
             // Restore System.out
             System.setOut(originalOut);
